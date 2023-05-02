@@ -40,3 +40,4 @@ resource "aws_cloudfront_distribution" "www_distribution" {
    response_headers_policy_id = aws_cloudfront_response_headers_policy.headers.id
 
   }
+}
